@@ -41,6 +41,8 @@ This project is configured for static deployment on GitHub Pages using GitHub Ac
 
 The deployment workflow runs automatically on every push to the main branch. You can also trigger it manually from the Actions tab.
 
+**Note:** The workflow builds on all configured branches for CI validation, but **deployment to GitHub Pages only occurs from `main` and `gh-pages-setup` branches** due to environment protection rules. Other branches will build successfully but skip the deployment step.
+
 
 ## How to use
 
