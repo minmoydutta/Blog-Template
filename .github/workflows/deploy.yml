@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - gh-pages-setup
+      - copilot/configure-nextjs-for-github-pages
   workflow_dispatch:
 
 permissions:
