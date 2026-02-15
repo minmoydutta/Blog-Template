@@ -1,10 +1,13 @@
 const YEAR = new Date().getFullYear()
 
+const repoName = 'Blog-Template'
+const basePath = process.env.NODE_ENV === 'production' ? `/${repoName}` : ''
+
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Minmoy Dutta.
-      <a href="/feed.xml">RSS</a>
+      <a href={`${basePath}/feed.xml`}>RSS</a>
       <style jsx>{`
         a {
           float: right;
