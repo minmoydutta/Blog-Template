@@ -31,7 +31,7 @@ This project is configured for static deployment on GitHub Pages using GitHub Ac
    - Go to Settings → Pages
    - Under "Build and deployment", select "GitHub Actions" as the source
 
-2. **Push to the main branch** (or gh-pages-setup for testing):
+2. **Push to the main branch**:
    - The workflow will automatically build and deploy your site
    - Your site will be available at `https://[username].github.io/Blog-Template/`
 
