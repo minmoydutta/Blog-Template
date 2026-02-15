@@ -9,5 +9,5 @@ module.exports = withNextra({
     unoptimized: true
   },
   basePath: isProduction ? `/${repoName}` : '',
-  assetPrefix: isProduction ? `/${repoName}/` : ''
+  assetPrefix: isProduction ? `/${repoName}` : ''
 })
